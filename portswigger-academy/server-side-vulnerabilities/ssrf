@@ -1,0 +1,3 @@
+ Server-side request forgery 
+
+web security vulnerability allows attacker to cause the server-side application to make requests to unintended location.
