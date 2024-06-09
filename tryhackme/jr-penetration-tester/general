@@ -3,3 +3,4 @@ web debugger - breakpoint/s
 intel:
 s3 buckets - name.s3.amazonaws.com 
 good lists resource: https://github.com/danielmiessler/SecLists
+ffuf, dirb and gobuster.
