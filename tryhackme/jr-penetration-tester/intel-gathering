@@ -1,0 +1,3 @@
+subdomains:
+crt.sh, dnsrecon, -site:www.sitename.com site:*.sitename.com
+
