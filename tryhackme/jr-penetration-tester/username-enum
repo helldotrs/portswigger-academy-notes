@@ -1,3 +1,9 @@
 user@tryhackme$ ffuf -w /usr/share/wordlists/SecLists/Usernames/Names/names.txt -X POST -d "username=FUZZ&email=x&password=x&cpassword=x" -H "Content-Type: application/x-www-form-urlencoded" -u http://10.10.184.127/customers/signup -mr "username already exists"
 ^useful terminal command for username enum
-
+-w wordlist
+-X method (GET is default)
+-d data-to-send
+FUZZ is keyword
+-H argument is used for adding additional headers to the request. 
+-u url
+-mr text-we're-looking-for
