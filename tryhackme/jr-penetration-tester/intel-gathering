@@ -1,3 +1,9 @@
 subdomains:
-crt.sh, dnsrecon, -site:www.sitename.com site:*.sitename.com  --> sublist3r
+    crt.sh, dnsrecon, -site:www.sitename.com site:*.sitename.com  --> sublist3r
+    
+    ffuf -w location/wordlist.txt -H "Host: FUZZ.url.com" -u http://[ip/url.com] -fs {size} 
+        -fs: filter size: filter is exclude
+        -H is header, Host: the header that we want to modify/fuzz
+        FUZZ is keyword
 
+        
