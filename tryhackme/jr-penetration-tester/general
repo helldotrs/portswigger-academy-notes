@@ -4,3 +4,5 @@ intel:
 s3 buckets - name.s3.amazonaws.com 
 good lists resource: https://github.com/danielmiessler/SecLists
 ffuf, dirb and gobuster.
+
+'The PHP $_REQUEST variable is an array that contains data received from the query string and POST data. If the same key name is used for both the query string and POST data, the application logic for this variable favours POST data fields rather than the query string, so if we add another parameter to the POST form, we can control where the password reset email gets delivered.'
