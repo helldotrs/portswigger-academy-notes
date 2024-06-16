@@ -1,1 +1,6 @@
--n flag on grep to show line numbers
+grep
+    -n flag to count lines
+
+&   run in background
+>   redirect
+>>  append
