@@ -1,0 +1,4 @@
+https://tryhackme.com/r/room/authenticationbypass
+    could be made clearer
+        Encode the following value using base64 {"id":1,"admin":true}
+            --> Encode the following value using base64 {"id":1,"admin":true} (include brackets{})
