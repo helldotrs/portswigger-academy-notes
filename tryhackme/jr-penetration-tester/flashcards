@@ -18,4 +18,4 @@ SOC
 
 TLD - Top Level Domain .com .net .org and so on
 
-IDOR  Insecure Direct Object Reference 
+IDOR  Insecure Direct Object Reference (too much trust in user input - not enough validation)
