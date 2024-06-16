@@ -35,4 +35,6 @@ locations;
     /var/log/apache2/access.log  the accessed requests for Apache  webserver
     C:\boot.ini  contains the boot options for computers with BIOS firmware
 
+LFI Local file inclusion
+
 
