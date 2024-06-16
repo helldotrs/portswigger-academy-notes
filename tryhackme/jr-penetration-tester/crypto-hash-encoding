@@ -1,0 +1,5 @@
+base64
+    string to base64
+        echo -n {plain_string} | base64   # -n / --no-newline
+    base64 to string
+        echo {encoded_string} | base64 -d # -d / --decode
