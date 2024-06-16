@@ -20,3 +20,5 @@ Lockheed Martin's Cyber Kill Chain
     Installation
     Command and Control (C2)
     Actions on Objectives
+
+php: file_get_contents function
