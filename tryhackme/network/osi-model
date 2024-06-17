@@ -3,3 +3,6 @@ https://tryhackme.com/r/room/osimodelzi
 Please Do Not Tell Security Personnel About Us 
     ( includes the inofficial "user" and feels more red-team than talking about sausage pizza )
 
+4. Transport
+    tcp    transfear control protocol
+    udp    user datagram protocol
