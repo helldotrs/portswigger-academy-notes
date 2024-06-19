@@ -7,3 +7,4 @@ grep
 
 mv file newfile # file --> new file
 mv file existing-dir #file --> existing-dir/file
+        # I feel like one would usually type mv file existing-dir/file ?
