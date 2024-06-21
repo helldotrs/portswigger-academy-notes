@@ -23,3 +23,6 @@ Lockheed Martin's Cyber Kill Chain
 
 php: file_get_contents function
     nullbyte: include("languages/../../../../../etc/passwd%00").".php"); //patched in php 5.3.4
+
+"Take note of the payload ending in &x= being used to stop the remaining path from being appended to the end of the attacker's URL and instead turns it into a parameter (?x=) on the query string."
+             #neat!!
