@@ -30,3 +30,6 @@ php: file_get_contents function
 169.254.169.254
         cloud meta data?
         $ curl -s http://169.254.169.254/user-data/ 
+        Also, in a cloud environment, it would be beneficial to block access to the IP address 169.254.169.254, which contains metadata for the deployed cloud server, including possibly sensitive information. An attacker can bypass this by registering a subdomain on their own domain with a DNS record that points to the IP Address 169.254.169.254.
+
+
