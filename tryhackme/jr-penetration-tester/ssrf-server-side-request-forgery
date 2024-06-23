@@ -8,5 +8,5 @@ subdomain spoofing:
 
 open redirect
 
-/forbidden --> /x/../forbidden 
+private --> anything/../private 
         trick for getting around a filter that will not allow a source to begin with /forbidden
