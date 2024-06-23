@@ -1,0 +1,8 @@
+name:tag
+
+    pull (we have done this above!)
+    ls (list images)
+    rm (remove an image)
+    build (we will come onto this in the “Building your First Container” task)
+
+  
