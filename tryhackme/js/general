@@ -5,3 +5,6 @@ variable types:
 main data types: 
     num/string/bool
         is int called num in js???
+
+is there any valid usecase for == instead of ===??
+or ** instead of **=
