@@ -6,3 +6,5 @@ name:tag
     build (we will come onto this in the “Building your First Container” task)
 
   
+docker image ls
+docker image rm ubuntu:22.04
