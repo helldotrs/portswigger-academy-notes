@@ -8,3 +8,10 @@ name:tag
 docker pull ubuntu:22.04
 docker image ls
 docker image rm ubuntu:22.04
+
+-d detached mode
+-it [i]nteractive, t to run shell within contaner ([t]erminal?)
+-v [v]olume. "tells Docker to mount a directory or file from the host operating system to a location within the container. The location these files get stored is defined in the Dockerfile" (/results/ in tla?)
+-p bind [p]ort
+-rm [r]e[m]ove container once finished running
+-name name the container (default is two random words)
