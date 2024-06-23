@@ -31,3 +31,11 @@ DOM
     The Document Object Model
     <button onclick="my_fun()">click here</button> //html is such dinosour.
 
+xss extra resources:
+    Extra Resources:
+        Here are a few interesting, more in-depth, resources used for JavaScript in Cybersecurity:
+            STÖK's "Hacker101 - JavaScript for Hackers": https://www.youtube.com/watch?v=FTeE3OrTNoA
+            TryHackMe's "Cross-site Scripting" Room: https://tryhackme.com/room/xss
+            Cross-Site Scripting (XSS) OWASP Website: https://owasp.org/www-community/attacks/xss/
+
+ssl protection against cookiestealing
