@@ -10,3 +10,4 @@ open redirect
 
 private --> anything/../private 
         trick for getting around a filter that will not allow a source to begin with /forbidden
+                #does this work if 'anything does not exist?'
