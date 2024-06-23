@@ -8,3 +8,13 @@ main data types:
 
 is there any valid usecase for == instead of ===??
 or ** instead of **=
+
+funcitons:
+    if they look like right
+        function my_fun(a, b){
+    it is es5
+
+    if they look ridicolus
+        const my_fun = (a, b) => {
+    it is es6 (most popular js version)
+    I mean I can see merit to saving a funciton in a const but.... it looks konstigt (pun intended)   
