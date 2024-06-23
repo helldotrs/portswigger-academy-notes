@@ -5,6 +5,6 @@ name:tag
     rm (remove an image)
     build (we will come onto this in the “Building your First Container” task)
 
-  
+docker pull ubuntu:22.04
 docker image ls
 docker image rm ubuntu:22.04
