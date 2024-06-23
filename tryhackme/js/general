@@ -26,3 +26,8 @@ loops:
     for         // legacy style: for(i = 0; i >= 10; i++){
     do...while  // damn thats a dumb name
 
+DOM
+    Most of what the DOM does is change, replace, edit, or in some form, manipulate the HTML file or webpage that you're working on
+    The Document Object Model
+    <button onclick="my_fun()">click here</button> //html is such dinosour.
+
