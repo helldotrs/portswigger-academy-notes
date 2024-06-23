@@ -1,5 +1,7 @@
-let/var/const 
-    var is original type. best to use let instead.
+variable types:
+    let/var/const 
+        var is original type. best to use let instead.
 
-data types: num/string/bool
-    is int called num in js???
+main data types: 
+    num/string/bool
+        is int called num in js???
