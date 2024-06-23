@@ -21,3 +21,8 @@ funcitons:
 
 square brackets [] for array
 
+loops:
+    while
+    for         // legacy style: for(i = 0; i >= 10; i++){
+    do...while  // damn thats a dumb name
+
