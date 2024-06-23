@@ -8,6 +8,7 @@ name:tag
 docker pull ubuntu:22.04
 docker image ls
 docker image rm ubuntu:22.04
+pocker ps lists running contailers -a flag to also list non running
 
 -d detached mode
 -it [i]nteractive, t to run shell within contaner ([t]erminal?)
