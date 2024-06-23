@@ -31,11 +31,20 @@ DOM
     The Document Object Model
     <button onclick="my_fun()">click here</button> //html is such dinosour.
 
-xss extra resources:
-    Extra Resources:
-        Here are a few interesting, more in-depth, resources used for JavaScript in Cybersecurity:
-            STÖK's "Hacker101 - JavaScript for Hackers": https://www.youtube.com/watch?v=FTeE3OrTNoA
-            TryHackMe's "Cross-site Scripting" Room: https://tryhackme.com/room/xss
-            Cross-Site Scripting (XSS) OWASP Website: https://owasp.org/www-community/attacks/xss/
 
-ssl protection against cookiestealing
+XSS:
+    xss extra resources:
+        Extra Resources:
+            Here are a few interesting, more in-depth, resources used for JavaScript in Cybersecurity:
+                STÖK's "Hacker101 - JavaScript for Hackers": https://www.youtube.com/watch?v=FTeE3OrTNoA
+                TryHackMe's "Cross-site Scripting" Room: https://tryhackme.com/room/xss
+                Cross-Site Scripting (XSS) OWASP Website: https://owasp.org/www-community/attacks/xss/
+    
+    ssl protection against cookiestealing
+    
+    xss types 
+        The three most common types that I've seen of XSS are DOM-Based XSS (type-0 XSS), Reflected XSS (Non-Persistent XSS), and Stored XSS (Persistent XSS):
+        
+            DOM-Based XSS: This is when an attack payload is executed by manipulating the DOM (Document Object Model) in the target's browser. This type uses the client-side code instead of server-side code.
+            Reflected XSS: This is when a malicious script bounces off another website onto the target's web application or website. Normally, these are passed in the URL as a query, and it's easy as making the target click a link. This type originates from the target's request.
+            Stored XSS: This is when a malicious script is directly injected into the webpage or web application. This type originates from the website's database.
