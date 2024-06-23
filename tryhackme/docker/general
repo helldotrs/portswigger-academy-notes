@@ -16,3 +16,7 @@ pocker ps lists running contailers -a flag to also list non running
 -p bind [p]ort
 -rm [r]e[m]ove container once finished running
 -name name the container (default is two random words)
+
+single service:
+" Containers do not have service managers like systemd (this is by design - it is bad practice to run multiple applications in the same container. For example, this container is for the apache2 web server - and the apache2 web server only)."
+
