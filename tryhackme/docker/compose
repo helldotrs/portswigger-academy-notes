@@ -1,0 +1,8 @@
+docker-compose x where x is:
+  up     #(re)create/build and start the containers 
+  start  #starts already built containers 
+  build  #build but NOT start containers 
+  down   #stops and deletes containers
+  stop   #stops but does NOT delete containers
+               ^all above prefixed with "specified in compose file"
+
