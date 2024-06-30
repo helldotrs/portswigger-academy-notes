@@ -8,4 +8,4 @@ docker-compose x where x is:
 
 docker-compose.yml
   two space indentations
-
+  need to use image or build
