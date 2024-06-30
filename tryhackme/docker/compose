@@ -11,5 +11,5 @@ docker-compose.yml
   need to use image or build
 
 client side/server side, sockets
-server side socket uses api to listen
-client side docket uses api to send
+server side socket uses api to listen for requests
+client side docket uses api to send requests
