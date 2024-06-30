@@ -6,3 +6,6 @@ docker-compose x where x is:
   stop   #stops but does NOT delete containers
                ^all above prefixed with "specified in compose file"
 
+docker-compose.yml
+  two space indentations
+
