@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+  web:
+    build: ./web
+    networks:
+      - ecommerce
+    ports:
+      - '80:80'
+
+
+  database:
+    image: mysql:latest
+    networks:
+      - ecommerce
+    environment:
+      - MYSQL_DATABASE=ecommerce
+      - MYSQL_USERNAME=root
+      - MYSQL_ROOT_PASSWORD=helloword
+    
+networks:
+  ecommerce:
