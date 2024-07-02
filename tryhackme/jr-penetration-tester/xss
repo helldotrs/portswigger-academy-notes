@@ -6,5 +6,7 @@ eval()?
 blind xss - ensure payload has a callback (usually http request) to see when/if its executed.
 xss hunter express - https://github.com/mandatoryprogrammer/xsshunter-express
 
-<script>alert('pwnd');</script>
-"><script>---SNIP---
+examples:
+    <script>alert('pwnd');</script>
+    "><script>---SNIP---
+    </textarea><script>---SNIP---
