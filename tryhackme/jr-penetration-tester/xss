@@ -2,3 +2,6 @@ intention & modification
 dom - document object model - programming interface for html and xml
 
 eval()?
+
+blind xss - ensure payload has a callback (usually http request) to see when/if its executed.
+
