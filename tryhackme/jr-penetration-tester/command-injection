@@ -1,0 +1,4 @@
+command injection aka remote code execution (RCE)
+
+run command with same privledge as the user who runs the app
+
