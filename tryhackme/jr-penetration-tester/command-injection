@@ -5,3 +5,5 @@ make app run command on host os with same privledge as the user who runs the app
 one of the most lucrative attacks 
 
 blind vs verbose rce
+
+whoami - good test/proof of concept? (poc?)
