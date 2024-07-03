@@ -29,3 +29,6 @@ nc -l -p 9001
         btoa(): encode with base64 (for transport)
 
 can js send emails?
+
+https://tryhackme.com/r/room/xss
+        final task broken?
