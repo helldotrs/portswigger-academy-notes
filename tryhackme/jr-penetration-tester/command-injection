@@ -11,6 +11,9 @@ blind vs verbose ci
 
 whoami - good test/proof of concept? (poc?) (for verbose)
 
-delay (sleep/ping etc) to detect blind
+detecting blindv
+    delay (sleep/ping etc)
+    force output (example: whoami > output.txt && cat output.txt)
+    
 
 
