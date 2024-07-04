@@ -7,6 +7,10 @@ make app run command on host os with same privledge as the user who runs the app
 
 one of the most lucrative attacks 
 
-blind vs verbose rce
+blind vs verbose ci
 
-whoami - good test/proof of concept? (poc?)
+whoami - good test/proof of concept? (poc?) (for verbose)
+
+delay (sleep/ping etc) to detect blind
+
+
