@@ -1,3 +1,8 @@
+useful / cheat sheet:
+https://github.com/payloadbox/command-injection-payload-list
+
+-------- --------
+
 command injection != remote code execution (RCE)
 
 rce - end resultpOwErShElL
