@@ -1,4 +1,7 @@
-command injection aka remote code execution (RCE)
+command injection != remote code execution (RCE)
+
+rce - end result
+command injection - a way to achive rce
 
 make app run command on host os with same privledge as the user who runs the app
 
