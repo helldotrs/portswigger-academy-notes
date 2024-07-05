@@ -10,3 +10,5 @@ te% - selects anything that begins with te
 -- comment
 
  In-Band, Blind, Out-of-Band
+
+ information_schema, table_name
