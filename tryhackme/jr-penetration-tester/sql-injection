@@ -3,3 +3,6 @@ SQLi
 dbms - database manage system
 
 row - unit
+
+te% - selects anything that begins with te
+%a% - returns anything that contains a
