@@ -9,6 +9,10 @@ te% - selects anything that begins with te
 ; end
 -- comment
 
- In-Band, Blind, Out-of-Band
+In-Band, Blind, Out-of-Band
 
- information_schema, table_name
+information_schema, table_name
+
+reread in-band:
+    https://tryhackme.com/r/room/sqlinjectionlm
+
