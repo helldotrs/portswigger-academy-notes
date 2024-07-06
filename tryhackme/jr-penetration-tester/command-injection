@@ -46,3 +46,9 @@ php shell functions:
     System
 
 
+Remote File Inclusion - RFI
+allows for rce. requires allow_url_fopen to be "on"
+
+
+
+    
