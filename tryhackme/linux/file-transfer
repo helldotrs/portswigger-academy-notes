@@ -10,3 +10,6 @@ python3 HTTPServer --> curl / wget
     python3 -m http.server
 
 replacement for python SimpleHTTPServer: https://github.com/sc0tfree/updog
+
+further reading:
+   https://docs.python.org/3/library/http.server.html
