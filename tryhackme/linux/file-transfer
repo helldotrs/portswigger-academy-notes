@@ -7,5 +7,6 @@ scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
     ^scp to-be-transderred.file user@host:/dir/has-been-transferred.file
 
 python3 HTTPServer --> curl / wget
+    python3 -m http.server
 
 
