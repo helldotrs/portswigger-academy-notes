@@ -1,0 +1,7 @@
+SELECT
+  SELECT column_name FROM table_name;
+  SELECT * FROM table_name;
+  SELECT first_name, second_name FROM people;
+
+UNION (adds a second cmd):
+    SELECT first_name FROM people UNION SELECT second_name FROM people;
