@@ -16,3 +16,12 @@ information_schema, table_name
 reread in-band:
     https://tryhackme.com/r/room/sqlinjectionlm
 
+manual brute force lamo:
+    We get a true response because, in the like operator, we just have the value of %, which will match anything as it's the wildcard value. If we change the wildcard operator to a%, you'll see the response goes back to false, which confirms that the database name does not begin with the letter a. We can cycle through all the letters, numbers and characters such as - and _ until we discover a match. If you send the below as the username value, you'll receive a true response that confirms the database name begins with the letter s.
+    
+    admin123' UNION SELECT 1,2,3 where database() like 's%';--
+    
+    Now you move on to the next character of the database name until you find another true response, for example, 'sa%', 'sb%', 'sc%', etc. Keep on with this process until you discover all the characters of the database name, which is sqli_three.
+    
+    
+
