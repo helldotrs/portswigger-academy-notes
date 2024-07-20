@@ -23,5 +23,4 @@ manual brute force lamo:
     
     Now you move on to the next character of the database name until you find another true response, for example, 'sa%', 'sb%', 'sc%', etc. Keep on with this process until you discover all the characters of the database name, which is sqli_three.
     
-    
-
+SLEEP(3) as indicator for enum
