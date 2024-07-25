@@ -18,6 +18,10 @@ nslookup OPTIONS DOMAIN_NAME SERVER
                 A 	IPv4 Addresses
                 AAAA 	IPv6 Addresses
                 CNAME 	Canonical Name
-                MX 	Mail Servers
+                MX 	Mail Servers (Mail eXchange)
                 SOA 	Start of Authority
                 TXT 	TXT Records
+
+dig tryhackme.com MX
+dig @SERVER DOMAIN_NAME TYPE        
+dig @1.1.1.1 tryhackme.com MX
