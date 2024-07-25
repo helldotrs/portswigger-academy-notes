@@ -4,3 +4,6 @@ DNSDumpster
 Shodan.io
 
 mac - media access control
+
+Ping uses ICMP (Internet Control Message Protocol) 
+
