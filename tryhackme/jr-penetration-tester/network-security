@@ -11,3 +11,6 @@ ICMP (Internet Control Message Protocol)
         ping
 ARP - Address Resolution Protocol 
         is responsible for finding the MAC (hardware) address related to a specific IP address. It works by broadcasting an ARP query, "Who has this IP address? Tell me." And the response is of the form, "The IP address is at this MAC address."
+
+nslookup OPTIONS DOMAIN_NAME SERVER
+        nslookup -type=A google.com 1.1.1.1
