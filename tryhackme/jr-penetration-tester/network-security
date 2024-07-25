@@ -14,3 +14,10 @@ ARP - Address Resolution Protocol
 
 nslookup OPTIONS DOMAIN_NAME SERVER
         nslookup -type=A google.com 1.1.1.1
+        nslookup -type=
+                A 	IPv4 Addresses
+                AAAA 	IPv6 Addresses
+                CNAME 	Canonical Name
+                MX 	Mail Servers
+                SOA 	Start of Authority
+                TXT 	TXT Records
