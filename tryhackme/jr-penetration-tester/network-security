@@ -1,11 +1,13 @@
+uest
+rererereerrererrewerw
 whois, nslookup, dig
 
 DNSDumpster
 Shodan.io
 
-mac - media access control
-
-Ping uses ICMP (Internet Control Message Protocol) 
-
+MAC  (media access control)
+DHCP (Dynamic Host Configuration Protocol)
+ICMP (Internet Control Message Protocol) 
+        ping
 ARP - Address Resolution Protocol 
         is responsible for finding the MAC (hardware) address related to a specific IP address. It works by broadcasting an ARP query, "Who has this IP address? Tell me." And the response is of the form, "The IP address is at this MAC address."
