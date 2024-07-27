@@ -6,3 +6,6 @@ ff addons:
 https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/
 https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
+
+telnet - basically unencrypted ssh
+ Using telnet 10.10.61.173 PORT, you can connect to any service running on TCP and even exchange a few messages unless it uses encryption.
