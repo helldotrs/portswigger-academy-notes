@@ -1,3 +1,12 @@
+
+shortcuts
+    Ctrl +         R :  Send to repeater (proxy)
+    Ctrl + Shift + D :	Dashboard
+    Ctrl + Shift + T :	Target tab
+    Ctrl + Shift + P :	Proxy tab
+    Ctrl + Shift + I :	Intruder tab
+    Ctrl + Shift + R :	Repeater tab
+
 inspector
     to the right in proxy & repeater
     view and modify page components
