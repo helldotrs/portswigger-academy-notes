@@ -8,4 +8,11 @@ https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
 https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
 
 telnet - basically unencrypted ssh
- Using telnet 10.10.61.173 PORT, you can connect to any service running on TCP and even exchange a few messages unless it uses encryption.
+    Using telnet 10.10.61.173 PORT, you can connect to any service running on TCP and even exchange a few messages unless it uses encryption.
+
+traceroute target_ip
+telnet target_ip target_port 
+    (legacy??)
+nc target_ip target_port
+    (client)
+nc -lvnp port_number
