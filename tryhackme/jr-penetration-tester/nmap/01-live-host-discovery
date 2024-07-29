@@ -19,3 +19,8 @@ nse
       7 traceroute
        8 scripts
         9 write output
+
+network
+    physical
+subnetwork
+    logical
