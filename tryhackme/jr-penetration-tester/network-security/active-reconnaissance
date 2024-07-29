@@ -16,3 +16,6 @@ telnet target_ip target_port
 nc target_ip target_port
     (client)
 nc -lvnp port_number
+
+ff devtools
+    ctl+shift+i
