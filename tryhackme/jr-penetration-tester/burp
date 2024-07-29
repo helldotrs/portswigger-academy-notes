@@ -10,3 +10,17 @@ shortcuts
 inspector
     to the right in proxy & repeater
     view and modify page components
+    
+    Other sections available for viewing and/or editing include:
+    
+        Request Query Parameters: 
+            data sent via url / GET
+        Request Body Parameters: 
+            data sent via POST
+        Request Cookies
+        Request Headers: 
+            view/edit/add/remove header. Editing these headers can be valuable when examining how a web server responds to unexpected headers.
+        Response Headers: 
+            only visible after getting response headers. can not be modified as its sent to us by the server.
+
+
