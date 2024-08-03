@@ -19,3 +19,5 @@ https://crontab.guru/
 crontab -e
     edits crontabs
     does not seem to work by default in NixOS
+
+    in thm attackbox it opens in vi/m
