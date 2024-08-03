@@ -15,3 +15,7 @@ https://crontab-generator.org/
 
 crontab guru:
 https://crontab.guru/
+
+crontab -e
+    edits crontabs
+    does not seem to work by default in NixOS
