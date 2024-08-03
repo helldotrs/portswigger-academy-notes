@@ -5,3 +5,7 @@ DOM	What day of the month to execute at
 MON	What month of the year to execute at
 DOW	What day of the week to execute at
 CMD	The actual command that will be executed.
+
+* wildcard
+
+0 */12 * * * echo "I am a command that run every 12h!"
