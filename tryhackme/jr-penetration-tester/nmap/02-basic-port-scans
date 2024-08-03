@@ -1,0 +1,8 @@
+
+TCP header flags:
+    URG - Urgent
+    ACK - Acknowledgement
+    PSH - Push
+    RST - Reset
+    SYN - Synchronize
+    Fin - Finish
