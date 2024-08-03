@@ -9,3 +9,9 @@ CMD	The actual command that will be executed.
 * wildcard
 
 0 */12 * * * echo "I am a command that run every 12h!"
+
+crontab gen:
+https://crontab-generator.org/
+
+crontab guru:
+https://crontab.guru/
