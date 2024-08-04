@@ -8,3 +8,5 @@ Rapid7
     + contains msf instructions
 GitHub 
     + keywords (cve, vuln, exploit, poc, etc)
+searchSploit
+    offline db / software included in kali/parrot/thm-box
