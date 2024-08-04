@@ -12,3 +12,6 @@ Nist CVSS score calculator:
 
 ***CSVV relay on available explots and vulnerabilities rarely change scoring after assessment despite the fact that new developments such as exploits may be found.***
     ^keep in mind for bug bounty
+
+
+Vulnerability Priority Rating (VPR)
