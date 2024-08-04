@@ -9,3 +9,5 @@ Score
 
 Nist CVSS score calculator:
     https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
+
+***Vulnerabilities rarely change scoring after assessment despite the fact that new developments such as exploits may be found.***
