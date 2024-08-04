@@ -1,4 +1,6 @@
 NVD (National Vulnerability Database)
     https://nvd.nist.gov/vuln
+    cve
 exploit-db      
-    http://exploit-db.com/      
+    http://exploit-db.com/    
+    snippets & PoC
