@@ -12,6 +12,7 @@
     
     ***CSVV relay on available explots and vulnerabilities rarely change scoring after assessment despite the fact that new developments such as exploits may be found.***
         ^keep in mind for bug bounty
+        does not hold true for vpr
 
 
 [[[Vulnerability Priority Rating (VPR)]]]
@@ -21,3 +22,5 @@
         Medium    4.0 - 6.9
         High      7.0 - 8.9
         Critical  9.0 - 10.0
+
+    not opensource
