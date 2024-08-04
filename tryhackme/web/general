@@ -1,2 +1,9 @@
 tld --> second level domain --> subdomain
     com --> gbgay --> hack
+
+dns:
+    A record     - IPv4
+    AAAA record  - IPv6
+    CNAME record - canonical name or alias for the domain
+    MC record    - email
+    TXT record   - free text
