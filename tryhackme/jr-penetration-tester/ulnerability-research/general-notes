@@ -1,11 +1,11 @@
 Common Vulnerability Scoring System (CVSS)
 
 Score
-    None    	0
-    Low	      0.1 - 3.9
-    Medium	  4.0 - 6.9
-    High	    7.0 - 8.9
-    Critical	9.0 - 10.0
+    None      0
+    Low       0.1 - 3.9
+    Medium    4.0 - 6.9
+    High      7.0 - 8.9
+    Critical  9.0 - 10.0
 
 Nist CVSS score calculator:
     https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
