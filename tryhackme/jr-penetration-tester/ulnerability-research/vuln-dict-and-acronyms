@@ -1,4 +1,10 @@
 PoC  - proof of concept
-NVD  - national vuln database
 CVSS - Common Vulnerability Scoring System
 VPR  . Vulnerability Priority Rating
+CVE  - Common Vulnerabilities and Exposures
+    format:
+        CVE-year-id
+        CVE-2017-0144 (wannacry)    
+NVD  - national vuln database (https://nvd.nist.gov/vuln)
+    find CVEs here
+
