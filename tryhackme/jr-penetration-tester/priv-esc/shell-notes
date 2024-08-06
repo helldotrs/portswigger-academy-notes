@@ -2,3 +2,6 @@ reverse vs bind
 
 reverse: target --> advers
 bind: advers --> target (?) (like setting up a listener on the target?)
+
+reverse
+    more common "9 out of 10", especially in THM CTFs
