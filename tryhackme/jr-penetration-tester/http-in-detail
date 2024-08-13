@@ -1,1 +1,17 @@
 http - HyperTextTransferProtocol
+
+url - uniform resource locator
+    http://admin:password@website.com:80/dir-name?id=123#about
+      http - scheme
+      ://
+      admin:password - user
+      @
+      website.com - host/domain
+      :
+      80 - port
+      /
+      dir-name - path
+      ?id=123 - query string
+      #about - fragment
+          (is it really correct that the seperators are not included in the first but are in the final 3??)
+      
