@@ -14,4 +14,6 @@ url - uniform resource locator
           ?id=123 - query string
           #about - fragment
               (is it really correct that the seperators are not included in the first but are in the final 3??)
-          
+
+http request:
+    blank line indicates end of request
