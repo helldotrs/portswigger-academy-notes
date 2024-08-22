@@ -17,3 +17,6 @@ url - uniform resource locator
 
 http request:
     blank line indicates end of request
+
+codes:
+    401,403,405 - good to keep an eye out for
