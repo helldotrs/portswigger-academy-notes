@@ -21,4 +21,8 @@ http request:
 codes:
     401,403,405 - good to keep an eye out for
 
-
+100-199 - Information Response	- These codes are no longer very common.
+200-299 - Success	
+300-399 - Redirection	
+400-499 - Client Errors	- can be very useful in telling you a resource does exist, but need priviledges
+500-599 - Server Errors
