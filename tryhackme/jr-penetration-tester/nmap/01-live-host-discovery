@@ -35,4 +35,4 @@ TCP from Transport Layer
 UDP from Transport Layer
 
 flags:
-    -sn    Disable port scanning. Host discovery only.
+    -sn    :    ping scan    :    Disable port scanning. Host discovery only.
