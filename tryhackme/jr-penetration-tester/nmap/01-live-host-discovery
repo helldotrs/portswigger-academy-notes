@@ -1,5 +1,6 @@
 what is the scans:
     ARP scan: This scan uses ARP requests to discover live hosts
+        ARP scan is possible only if you are on the same subnet as the target systems
     ICMP scan: This scan uses ICMP requests to identify live hosts (ping/similar?)
     TCP/UDP ping scan: This scan sends packets to TCP ports and UDP ports to determine live hosts.
 
@@ -15,7 +16,7 @@ nse
   3 reverse-DNS lookup
    4 scan ports
     5 detect versions     
-     6 detecrt OS
+     6 detect OS
       7 traceroute
        8 scripts
         9 write output
