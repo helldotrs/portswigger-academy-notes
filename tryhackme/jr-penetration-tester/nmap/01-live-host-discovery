@@ -33,3 +33,6 @@ ICMP from Network Layer
     ICMP has many types. ICMP ping uses Type 8 (Echo) and Type 0 (Echo Reply).
 TCP from Transport Layer
 UDP from Transport Layer
+
+flags:
+    -sn
