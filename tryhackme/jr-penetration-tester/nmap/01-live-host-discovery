@@ -1,4 +1,4 @@
-scans:
+what is the scans:
     ARP scan: This scan uses ARP requests to discover live hosts
     ICMP scan: This scan uses ICMP requests to identify live hosts (ping/similar?)
     TCP/UDP ping scan: This scan sends packets to TCP ports and UDP ports to determine live hosts.
@@ -35,4 +35,4 @@ TCP from Transport Layer
 UDP from Transport Layer
 
 flags:
-    -sn
+    -sn    Disable port scanning. Host discovery only.
