@@ -2,4 +2,6 @@
   -sN    null scan, all six flag bits are set to zero
       no reply is considered open or blocked --> open|filtered
       RST, ACK for closed
+  -sF    FIN scan
+      simular or same response as null scan
   
