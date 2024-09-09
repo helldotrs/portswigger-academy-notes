@@ -17,4 +17,5 @@
   --scanflags    custom scan. 
         example:
             --scanflags RSTSYNFIN
-  -f fragmentation
+  -f     fragmentation
+  -sS    stealth TCP SYN scan
