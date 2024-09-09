@@ -1,0 +1,5 @@
+
+  -sV    version scan
+        --version-intensity LEVEL
+            0-9 (9 being accresive)
+            nmap -sV --version-intensity 9 $TARGET_IP
