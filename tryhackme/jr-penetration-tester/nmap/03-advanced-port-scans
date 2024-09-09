@@ -12,3 +12,4 @@
 
   -sA    TCP ACK Scan 
       this type of scan is suitable to discover firewall rule sets and configuration
+  -sW    Window Scan
