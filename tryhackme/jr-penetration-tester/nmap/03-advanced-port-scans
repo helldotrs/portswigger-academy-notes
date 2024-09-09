@@ -5,4 +5,4 @@
   -sF    FIN scan
       simular or same response as null scan
   -sX    Xmas [tree] scan,sets FIN, PSH, URG flags simultaneously
-
+      simular or same response as null scan
