@@ -1,2 +1,5 @@
 
   -sN    null scan, all six flag bits are set to zero
+      no reply is considered open or blocked.
+      RST, ACK for closed
+  
