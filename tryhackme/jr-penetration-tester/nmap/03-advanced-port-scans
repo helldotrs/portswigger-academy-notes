@@ -1,5 +1,5 @@
 
   -sN    null scan, all six flag bits are set to zero
-      no reply is considered open or blocked.
+      no reply is considered open or blocked --> open|filtered
       RST, ACK for closed
   
