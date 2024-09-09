@@ -1,6 +1,6 @@
 Masscan   
     On a side note, Masscan uses a similar approach to discover the available systems. However, to finish its network scan quickly, Masscan is quite aggressive with the rate of packets it generates. The syntax is quite similar: -p can be followed by a port number, list, or range. Consider the following examples:    
-        masscan MACHINE_IP/24 -p443
+          masscan MACHINE_IP/24 -p443
           masscan MACHINE_IP/24 -p80,443
           masscan MACHINE_IP/24 -p22-25
           masscan MACHINE_IP/24 ‐‐top-ports 100
