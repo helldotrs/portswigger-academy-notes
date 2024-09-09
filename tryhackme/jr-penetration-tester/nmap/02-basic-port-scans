@@ -32,3 +32,5 @@ timing
         aggressive (4) -common in ctf/learning
         insane (5) -fastest
     the slower the less likely to get ids detection (I would think randomness would add to this factor as well)
+
+    Alternatively, you can choose to control the packet rate using --min-rate <number> and --max-rate <number>. For example, --max-rate 10 or --max-rate=10 ensures that your scanner is not sending more than ten packets per second. 
