@@ -26,9 +26,9 @@ Remember to add -sn if you are only interested in host discovery without port-sc
 timing
     You can control the scan timing using -T<0-5>. -T0 is the slowest (paranoid), while -T5 is the fastest. According to Nmap manual page, there are six templates:
         paranoid (0) -slowest
-        sneaky (1)
+        sneaky (1) -common in real engagments
         polite (2)
         normal (3) -default
-        aggressive (4)
+        aggressive (4) -common in ctf/learning
         insane (5) -fastest
     the slower the less likely to get ids detection (I would think randomness would add to this factor as well)
