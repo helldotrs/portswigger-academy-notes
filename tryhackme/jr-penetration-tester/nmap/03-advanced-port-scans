@@ -14,3 +14,6 @@
       this type of scan is suitable to discover firewall rule sets and configuration
   -sW    Window Scan
        The TCP window scan is almost the same as the ACK scan; however, it examines the TCP Window field of the RST packets returned. 
+  --scanflags    custom scan. 
+        example:
+            --scanflags RSTSYNFIN
