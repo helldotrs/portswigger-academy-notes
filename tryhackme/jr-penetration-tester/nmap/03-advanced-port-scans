@@ -9,3 +9,6 @@
 ^can be efficient on targets behind stateless (non-stateful) firewall. 
 
   -sM    Maimon, FIN + ACK, dome BSD-derivations drop this package, mostly not useful,
+
+  -sA    TCP ACK Scan 
+      this type of scan is suitable to discover firewall rule sets and configuration
