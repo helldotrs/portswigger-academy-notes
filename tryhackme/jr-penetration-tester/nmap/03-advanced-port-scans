@@ -19,3 +19,4 @@
             --scanflags RSTSYNFIN
   -f     fragmentation
   -sS    stealth TCP SYN scan
+  -sI    idle/zombie scan
