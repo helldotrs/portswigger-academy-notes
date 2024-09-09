@@ -7,3 +7,5 @@
   -sX    Xmas [tree] scan,sets FIN, PSH, URG flags simultaneously
       simular or same response as null scan
 ^can be efficient on targets behind stateless (non-stateful) firewall. 
+
+  -sM    Maimon
