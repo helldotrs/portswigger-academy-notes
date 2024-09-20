@@ -18,3 +18,5 @@ payload naming convention:
             windows/shell_reverse_tcp      
 
 msfvenom --list payloads
+    msfvenom --list payloads | grep "/arch/x/"
+        msfvenom --list payloads | grep "/linux/x86/meterpreter"
