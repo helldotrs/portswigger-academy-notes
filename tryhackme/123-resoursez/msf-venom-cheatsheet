@@ -16,3 +16,5 @@ payload naming convention:
     excepion:
         win32, example:
             windows/shell_reverse_tcp      
+
+msfvenom --list payloads
