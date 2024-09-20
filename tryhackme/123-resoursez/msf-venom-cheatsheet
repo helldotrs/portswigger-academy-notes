@@ -15,7 +15,13 @@ payload naming convention:
         windows/x64/meterpreter/reverse_tcp
     excepion:
         win32, example:
-            windows/shell_reverse_tcp      
+            windows/shell_reverse_tcp
+    staged/stageless
+        symbol used between payload and connectiontype:
+             stageless uses _
+                 example: shell_reverse_tcp
+             staged uses / (as in plural)
+                 example: shell/reverse_tcp
 
 msfvenom --list payloads
     msfvenom --list payloads | grep "os/arch/x"
