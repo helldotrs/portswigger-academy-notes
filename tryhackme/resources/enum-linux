@@ -1,0 +1,41 @@
+hostname
+uname -a
+/proc/version
+/etc/issue
+ps
+    ps -A      #all
+    ps axjf    #tree
+    ps aux
+env
+sudo -l
+ls
+    -l
+    -la
+id
+/etc/passwd
+cat /etc/passwd | cut -d ":" -f 1
+ifconfig #pivot point 
+    ip route
+netstat
+    -a  #all ports and established connections
+    -at #tcp protocols
+    -au #udp portocols
+    -l  #open ports
+    -s  #network usage statistics # -t/-u to limit output
+    -tp #connections wtih service name and pid  info
+    -ltp
+    -ano #common #display all sockets(tcp+udp)/do not recsolve name (numeric not dns)/display timers
+find
+    find . -name flag1.txt: find the file named “flag1.txt” in the current directory
+    find /home -name flag1.txt: find the file names “flag1.txt” in the /home directory
+    find / -type d -name config: find the directory named config under “/”
+    find / -type f -perm 0777: find files with the 777 permissions (files readable, writable, and executable by all users)
+    find / -perm a=x: find executable files
+    find /home -user frank: find all files for user “frank” under “/home”
+    find / -mtime 10: find files that were modified in the last 10 days
+    find / -atime 10: find files that were accessed in the last 10 day
+    find / -cmin -60: find files changed within the last hour (60 minutes)
+    find / -amin -60: find files accesses within the last hour (60 minutes)
+    find / -size 50M: find files with a 50 MB sizei can be used with +/- for larger/smaller than
+
+
