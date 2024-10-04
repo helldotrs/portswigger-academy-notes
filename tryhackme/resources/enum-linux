@@ -1,7 +1,7 @@
 hostname
 uname -a
-/proc/version
-/etc/issue
+/proc/version #kernel etc
+/etc/issue #os
 ps
     ps -A      #all
     ps axjf    #tree
