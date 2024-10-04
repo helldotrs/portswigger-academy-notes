@@ -37,5 +37,20 @@ find
     find / -cmin -60: find files changed within the last hour (60 minutes)
     find / -amin -60: find files accesses within the last hour (60 minutes)
     find / -size 50M: find files with a 50 MB sizei can be used with +/- for larger/smaller than
+    
+    -type f 2>/dev/null #redirect("remove") errors
 
+    find / -writable -type d 2>/dev/null : Find world-writeable folders
+    find / -perm -222 -type d 2>/dev/null: Find world-writeable folders
+    find / -perm -o w -type d 2>/dev/null: Find world-writeable folders
 
+    find / -perm -o x -type d 2>/dev/null : Find world-executable folders
+    
+    Find development tools and supported languages:
+    find / -name perl*
+    find / -name python*
+    find / -name gcc*
+
+    find / -perm -u=s -type f 2>/dev/null: Find files with the SUID bit, which allows us to run the file with a higher privilege level than the current user.
+
+find/locate/grep/cut/sort
