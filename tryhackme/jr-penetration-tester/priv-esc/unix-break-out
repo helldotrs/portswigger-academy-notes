@@ -2,9 +2,9 @@
 find user sudo priv
     sudo -l
     noteworthy output:
-        LD_PRELOAD - function that allows any program to use shared libraries.
-            1. check for^
-            2. write cimeple c code compiled as share object (.so)
+            1. LD_PRELOAD 
+                (function that allows any program to use shared libraries.)
+            2. write cimeple c code compiled as share object (.so), see 3.2
             3. run program as sudo, the LD_PRELOAD option pointing to our .so file
             3.2 see https://github.com/helldotrs/pentest-training-notes/blob/main/tryhackme/123-tool-box/spawn-root-shell.c.so
 break out
