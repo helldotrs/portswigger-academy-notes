@@ -1,1 +1,3 @@
 unshadow --> needs /etc/shadow and /etc/passwd, creates output for jtr
+    use
+        unshadow passwd shadow > output-file
