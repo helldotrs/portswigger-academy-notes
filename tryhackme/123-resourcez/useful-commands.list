@@ -1,1 +1,5 @@
-export PATH /=tmp:$PATH
+add /tmp to PATH
+    export PATH=/tmp:$PATH
+
+find writable in /usr
+    find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep usr | grep -v proc | sort -u
