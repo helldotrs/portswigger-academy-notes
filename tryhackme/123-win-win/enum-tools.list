@@ -1,0 +1,4 @@
+WinPEAS
+    https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
+    syntax: c:\>winpeas.exe > outputfile.txt
+    
