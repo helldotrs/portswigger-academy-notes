@@ -1,0 +1,20 @@
+WinPEAS
+    https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
+    syntax: c:\>winpeas.exe > outputfile.txt
+    
+PrivescCheck
+    https://github.com/itm4n/PrivescCheck
+    bypass policy restrictions:
+        PS C:\> Set-ExecutionPolicy Bypass -Scope process -Force
+        PS C:\> . .\PrivescCheck.ps1
+        PS C:\> Invoke-PrivescCheck
+
+WES-NG: Windows Exploit Suggester - Next Generation (python)
+    https://github.com/bitsadmin/wesng
+    update before run:
+        wes.py --update
+    (?)To use the script, you will need to run the systeminfo command on the target system.
+    $ wes.py systeminfo.txt
+
+msf
+   multi/recon/local_exploit_suggester
